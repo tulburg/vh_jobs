@@ -2,7 +2,7 @@
 
 update code 
 
-```
+```swift
 class Linker {
     
     var params: [String: String]!
@@ -14,7 +14,7 @@ class Linker {
 
 to 
 
-```
+```swift
 class Linker {
     
     var params: [String: String]!
