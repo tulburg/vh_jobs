@@ -1,7 +1,7 @@
 {
-  "name": "virtual-cards",
+  "name": "VH-Jobs",
   "version": "1.0.0",
-  "description": "An online purchase center for virtual cards",
+  "description": "Vanhack application (job list & details with filter & infinite scroll)",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,12 +9,9 @@
     "lint": "eslint ."
   },
   "keywords": [
-    "store",
-    "cards",
-    "virtual",
-    "cards",
-    "sales",
-    "market"
+    "jobs",
+    "search",
+    "application"
   ],
   "author": "Tolu Oluwagbemi <tulburg2@gmail.com>",
   "license": "Apache-2.0",
