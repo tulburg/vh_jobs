@@ -24,8 +24,7 @@
     "graphql-tools": "^0.3.6",
     "jsonwebtoken": "^8.1.1",
     "sequelize": "^4.33.4",
-    "sqlite3": "^3.1.13",
-    "body-parser": "^1.17.2"
+    "sqlite3": "^3.1.13"
   },
   "devDependencies": {
     "babel-plugin-transform-runtime": "^6.23.0",

@@ -1,14 +1,10 @@
 import express from 'express';
 import { apolloServer } from 'graphql-tools';
 import jwt from 'jsonwebtoken';
-import bodyParser from 'body-parser'
 // -----
 import { schema, resolvers } from './data/schema+resolver'
 
 var app = express();
-app.use(bodyParser.urlencoded({
-  extended: true
-}));
 var port = 8000;
 process.env.JWT_KEY = "MFbWMxyWXbXyGDjVw9WCG3Q7";
 
@@ -19,7 +15,6 @@ app.use("/auth", function(req, res) {
 });
 
 app.use("/", new apolloServer((req, res, next) =>{
-	console.log(req.body);
 	try {
 		// e
 		if(req.headers.authorization) {
