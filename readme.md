@@ -1,14 +1,7 @@
-# Virtual Cards
+# VH Jobs
 
 
-##### Activation card for your virtual account
-
----
-
-### Installation
-```
-npm install
-```
+##### Vanhack application (job list & details with filter & infinite scroll)
 
 ---
 
@@ -17,20 +10,16 @@ npm install
 - "express": "4.15.4"
 - "graphql": "0.5.0"
 - "graphql-tools": "0.3.6"
-- "https": "1.0.0"
-- "mongodb": "3.0.2"
+- "jsonwebtoken": "8.1.1"
+- "sequelize": "4.33.4"
+- "sqlite3": "3.1.13"
 
 ---
 
 ### Usage
 
 ```
-$ cd virtual\ cards
-$ mongodb --dbpath data/db
-```
-
-```
-$ cd virtual\ cards
+$ cd vh_jobs/server
 $ npm install
 $ npm start
 ```
