@@ -18,7 +18,7 @@ to
 class Linker {
     
     var params: [String: String]!
-    var url: URL = URL(string: "address or ip of the server")!
+    var url: URL = URL(string: "address or ip of the server & port")!
     var method = "POST"
     var image: UIImage!
 ```
